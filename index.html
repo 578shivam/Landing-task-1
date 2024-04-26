@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing task 1</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+       body{
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+       }
+        .flex-1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .list_item a {
+            text-decoration: none;
+            margin: 1.4rem;
+            color: black;
+        }
+
+        button {
+            width: 119px;
+            height: 38px;
+            border-radius: 20px;
+            border: none;
+            background-color: #EC9706;
+            color: white;
+            cursor: pointer;
+        }
+        .flex-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #FDF6E9;
+        }
+        span{
+            color: #EC9706;
+        }
+        .text h1{
+            font-size: 3rem;
+            margin-top: 10px;
+        }
+        .text p{
+            width: 24rem;
+    line-height: 25px;
+    margin-top: 20px;
+        }
+        .btn{
+            width: 119px;
+            height: 38px;
+            border-radius: 20px;
+            border: none;
+            background-color: #EC9706;
+            color: white;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .image img{
+            width: 712px;
+        }
+        .text-1{
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 55px;
+        }
+        .text-1 h1{
+            color: #EC9706;
+        }
+        .flex-3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 63px;
+        }
+        .flex-warp{
+            width: 406px;
+           height: 50vh;
+           margin-top: 20px;
+           background-color: #FDF6E9;
+        }
+        .flex-wrap img{
+            width: 406px;
+            height: 180;
+        }
+        .list-order li{
+            margin: 0.2rem;
+
+        }
+        .list-order li::marker{
+            color: #EC9706;
+        }
+        .list-order{
+            padding: 30px;
+        }
+        .list-order h3{
+            font-size: 24px;
+
+        }
+        .flex-4{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 15rem;
+            background-color: #FDF6E9;
+        }
+
+        .text-3 h1{
+            color: #EC9706;
+            margin: 10px;
+        }
+        .text-3 h4{
+            font-size: 2rem;
+        }
+        .text-3 p{
+            width: 30rem;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+        .text-4{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .text-4 p{
+            color: #EC9706;
+        }
+    .from{
+    width: 480px;
+    height: 400px;
+    background-color: #FDF6E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+        }
+        .from input{
+            width: 300px;
+            height: 50px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            margin: 0.4rem;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 30vh;
+            background-color: #FDF6E9;
+        }
+        .link-list{
+            display: flex;
+        }
+        .link-list li{
+            list-style: none;
+            margin: 1.4rem;
+            cursor: pointer;
+            
+        }
+        .soical-link i{
+            font-size: 20px;
+            margin: 1.4rem;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="flex-1">
+            <h1>LOGO</h1>
+            <div class="list_item">
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">Services</a>
+                <button>contacts us</button>
+            </div>
+        </div>
+    </nav>
+
+    <head>
+        <div class="flex-2">
+            <div class="text">
+                <span>We are hideva Group</span>
+            <h1>Design and Build Contractor</h1>
+            <p>With unwavering commitment and expertise, we create spaces that stand as a testament to our dedication
+                and craftsmanship</p>
+                <button class="btn">Get a quotes</button>
+            </div>
+                <div class="image">
+                    <img src="house.png" alt="house">
+                </div>
+        </div>
+    </head>
+    <section>
+            <div class="text-1">
+                <h1>Services</h1>
+                <p>Building Dreams, Crafting Realities</p>
+            </div>
+            <div class="flex-3">
+            <div class="flex-warp">
+                <img src="ktichen.png" alt="image">
+                <div class="list-order">
+                    <h3>Consultation Services</h3>
+                    <ul>
+                        <li>Design & Build</li>
+                        <li>Cost analysis</li>
+                        <li>Permits & Processes</li>
+                        <li>Scheduling</li>
+                        <li>Phasing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-warp">
+                <img src="3.png" alt="image">
+                <div class="list-order">
+                    <h3>General Construction</h3>
+                    <ul>
+                        <li>New Construction</li>
+                        <li>Building Addition</li>
+                        <li>Renovation</li>
+                        <li>Restoration</li>
+                        <li>Rebuilding from Drainage</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex-warp">
+                <img src="4.png" alt="image">
+                <div class="list-order">
+                    <h3>Maintenance Services</h3>
+                    <ul>
+                        <li>Windows & Doors Fitting</li>
+                        <li>Siding Repairs</li>
+                        <li>Plumbing</li>
+                        <li>Electrical &Solar Fitting</li>
+                        <li>Remodeling</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section>
+        <div class="flex-4">
+            <img src="hosue-1.png" alt="house">
+        <div class="text-3">
+            <h1>About us</h1>
+            <h4>Efficiency, Building, Budget & Time</h4>
+            <p>Hideva Group is a team of skilled construction professionals with a passion for building and a commitment to excellence. We provide a range of services, from small-scale renovations to large-scale commercial construction. We believe in transparency and communication, and we work closely with our clients to ensure their needs are met. Thank you for considering us for your construction needs.</p>
+        </div>
+        </div>
+    </section>
+    <section class="down">
+        <div class="text-4">
+            <p>Get  in touch</p>
+            <h1>Reach out to us and let's turn your construction dreams into reality</h1>
+        </div>
+            <div class="from">
+            <label> name
+                <input type="text" placeholder="Enter name" required>
+            </label>
+            <label> email
+                <input type="text" placeholder="exapme@gmail.com" required>
+            </label class="height">
+            <label>
+                <input type="text" placeholder="Message" style="width: 400px; height: 200px; margin-left: 20px; text-align: center;" >
+            </label>
+            <button class="btn-2">Send</button>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+                <h1>Logo</h1>
+                <div class="link-list">
+                    <ul>
+                        <h3>Services</h3>
+                        <li>New events</li>
+                        <li>Renovations</li>
+                        <li>Conversions</li>
+                        <li>Fit Out</li>
+                    </ul>
+                    <ul>
+                        <h3>Information</h3>
+                        <li>events</li>
+                        <li>contacts</li>
+                        <li>privacy policy</li>
+                        <li>Teams serives</li>
+                    </ul>
+                </div>
+            <div class="soical-link">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
